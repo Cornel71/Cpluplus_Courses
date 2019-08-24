@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1564822646 source:c:\users\classit\cornel_work\cpluplus_courses-master\curs_4\tet\main.c
+	<stdio.h>
+	<string.h>
+

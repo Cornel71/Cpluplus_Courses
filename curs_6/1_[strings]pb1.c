@@ -3,7 +3,7 @@
 int main()
 {
 
-    char sir1[] = {'S', 'a', 'l', 'u', 't', '\0'};
+    char sir1[] = {'S', 'a', 'l', 'u', 't', '\x00'};
     char sir2[] = "Hello";
     char *sir3 = "Hello World";
     char sir4[10];

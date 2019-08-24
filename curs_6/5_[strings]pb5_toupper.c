@@ -3,7 +3,7 @@
 
 int main()
 {
-    char c = 'g';
+    char c = 'a';
 
     printf ("\nislower %d", islower(c));
     printf ("\nisupper %d", isupper(c));

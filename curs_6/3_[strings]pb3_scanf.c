@@ -11,8 +11,8 @@ int main()
     char sir[20];
 
     printf ("Introduceti sirul cu scanf:");
-    scanf ("%s", sir);
-    //scanf ("%[^\n]%*c", sir);
+    //scanf ("%s", sir);
+    scanf ("%[^\n]%*c", sir);
 
     printf ("Sirul introdus de la tastatura: %s \n", sir);
 

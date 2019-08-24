@@ -21,7 +21,7 @@ int main()
     printf ("Sirul introdus de la tastatura: ");
     puts(sir);
 
-    printf ("Sirul introdus de la tastatura: \" %s \" \n", sir);
+    printf ("Sirul introdus de la tastatura: \" %10s \" \n", sir);
 
     return 0;
 }

@@ -38,8 +38,11 @@ int main()
 					   Asadar, convertim acel pointer void intr-un pointer catre int.
 	*/
     *p = 135; // corect - p pointeaza catre spatiul alocat de mai sus
+     printf("Memoria alocata = %p\n", *p );
+     printf("Memoria alocata = %o\n", *p );
+     printf("Memoria alocata = %d\n", *p );
 
-	free(p);  // eliberam spatiul alocat
+     free(p);  // eliberam spatiul alocat
 
 
 
