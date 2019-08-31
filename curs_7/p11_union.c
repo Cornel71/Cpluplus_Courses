@@ -22,6 +22,6 @@ int main( ) {
    printf( "test.i : %d\n", test.i);
    printf( "test.f : %f\n", test.f);
    printf( "test.str : %s\n", test.str);
-
+   printf( "test.i : %d\n", test.i);
    return 0;
 }
