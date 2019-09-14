@@ -8,7 +8,7 @@ int main ()
 
   if (pf != NULL)
   {
-    fputs ("Aceasta este o fraza de test pentru functia fopen. Enjoy :)",pf);
+    fputs ("Aceasta este o fraza de test pentru functia fopen. Enjoy :)\n",pf);
 
     fclose (pf);
   }

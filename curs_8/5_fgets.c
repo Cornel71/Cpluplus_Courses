@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
     char * fgets ( char * str, int num, FILE * stream );
 
     str = Pointer to an array of chars where the string read is copied.
@@ -26,7 +26,7 @@ int main()
     //scanf("%s",numeFisier);
     // la introducere numelui trebuie specificata si extensia; ex. demo.txt; litere.txt
 
-    pf = fopen("demo.txt","rt");
+    pf = fopen("test.txt","rt");
 
     if (pf == NULL)
     {

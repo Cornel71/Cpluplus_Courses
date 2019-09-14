@@ -19,7 +19,7 @@ int main ()
     {
         //puts("Fisier deschis in modul adaugare informatii");
         puts("Fisier deschis in modul scriere");
-        //fputs("Mesaj pentru a testa pozitionarea in fisiere text", pf);
+        fputs("Mesaj pentru a testa pozitionarea in fisiere text", pf);
         //fputs("Alt Mesaj", pf);
 
        fseek(pf,15,SEEK_SET);
