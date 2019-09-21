@@ -24,12 +24,12 @@ int main()
 
     pn = &bubble; // pn retine adresa variabilei bubble
 
-    pa = new double[30]; // se aloca dinamic o adresa de memorie pentru  un tablou de 30 elemente
+    pa = new double[30]; /// se aloca dinamic o adresa de memorie pentru  un tablou de 30 elemente
 
-    cout << *pn << endl; // se afiseaza valoarea variabilei bubble
+    cout << *pn << endl; /// se afiseaza valoarea variabilei bubble
 
 
-    pc = new char; // se aloca dinamic o adresa de memorie
+    pc = new char; /// se aloca dinamic o adresa de memorie
     *pc = 'S'; // la adresa memorata in pc se pune valoarea 'S'
     cout << *pc << endl; // se afiseaza valoarea
 

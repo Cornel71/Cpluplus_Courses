@@ -1,0 +1,114 @@
+// CERC
+// functie pentru calculul ariei unui cerc
+float ariaCerc (int raza)
+{
+
+    return 3.14 * raza * raza;
+
+}
+
+// functie pentru calculul perimetrului unui cerc
+float perimetruCerc (int raza)
+{
+
+    return 2 * 3.14 * raza;
+
+}
+
+
+// PATRAT
+// functie pentru calculul ariei unui patrat
+int ariaPatrat (int latura)
+{
+
+    return latura * latura;
+
+}
+
+int perimetruPatrat (int latura)
+{
+
+    return 4 * latura;
+
+}
+
+
+
+////////////////////////////////////////////////////////////////////
+
+
+
+
+// CERC
+
+namespace cerc {  
+
+// functie pentru calculul ariei unui cerc
+float aria (int raza)
+{
+
+    return 3.14 * raza * raza;
+
+}
+
+// functie pentru calculul perimetrului unui cerc
+float perimetru (int raza)
+{
+
+    return 2 * 3.14 * raza;
+
+}
+
+}
+
+// PATRAT
+
+namespace patrat {    
+
+// functie pentru calculul ariei unui patrat
+int aria (int latura)
+{
+
+    return latura * latura;
+
+}
+
+int perimetru (int latura)
+{
+
+    return 4 * latura;
+
+}
+
+}
+
+
+
+#include <iostream>
+#include "cerc.h"
+#include "patrat.h"
+
+using namespace std;
+using namespace patrat;
+using namespace cerc;
+
+int main()
+{
+
+    int lat = 10, r = 10;
+
+    int aPatrat = patrat::aria(lat);
+    int pPatrat = perimetruPatrat(lat);
+
+    float aCerc = cerc::aria(r);
+    float pCerc = perimetruCerc(r);
+
+    cout << "Aria patrat = " << aPatrat << endl;
+    cout << "Perimetru patrat = " << pPatrat << endl;
+
+    cout << "Aria cerc = " << aCerc << endl;
+    cout << "Perimetru cerc = " << pCerc << endl;
+
+
+    return 0;
+}
